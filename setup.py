@@ -34,15 +34,25 @@ with open("splinart/version.py", "w") as f:
     f.write("__version__ = '{}'\n".format(VERSION))
 
 setup(
-    name = "splinart",
-    author = "loic.gouarin@gmail.com",
-    description = "spline art generator",
-    version = VERSION,
-    license = "BSD",
-    classifiers = CLASSIFIERS,
-    packages = find_packages(exclude=["demos"]),
-    entry_points={ 'console_scripts': [
+    name="splinart",
+    author="loic.gouarin@gmail.com",
+    description="spline art generator",
+    version=VERSION,
+    license="BSD",
+    classifiers=CLASSIFIERS,
+    packages=find_packages(exclude=["demos"]),
+    install_requires=[
+        'numpy',
+        'matplotlib',
+        'six',
+        'pytest',
+        'pylint',
+        'pytest-pylint',
+        'pytest-cov',
+        'codecov',
+    ],
+    entry_points={'console_scripts': [
         'splinart=scripts.cli_splinart:main',
-        ],
+    ],
     },
 )
