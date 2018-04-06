@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/fsismondi/splinart-fsis.svg?branch=master
+    :target: https://travis-ci.org/fsismondi/splinart-fsis
+
+
 splinart is a package used for a tutorial which explains how to do the Python packaging using
 
 - `PyPi <https://pypi.python.org/pypi>`_
