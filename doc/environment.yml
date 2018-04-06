@@ -1,4 +1,4 @@
-name: splinart-fsis
+name: splinart
 dependencies:
   - notebook
   - sphinx
