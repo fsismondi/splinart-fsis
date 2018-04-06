@@ -1,0 +1,6 @@
+name: splinart-fsis
+dependencies:
+  - notebook
+  - sphinx
+  - nbsphinx
+
