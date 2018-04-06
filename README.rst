@@ -1,16 +1,12 @@
-.. |travis| image:: https://travis-ci.org/fsismondi/splinart-fsis.svg?branch=master
-    :target: https://travis-ci.org/fsismondi/splinart-fsis
-
-.. |codecov| image:: https://codecov.io/gh/fsismondi/splinart-fsis/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/fsismondi/splinart-fsis
-
----
 
 .. image:: https://travis-ci.org/fsismondi/splinart-fsis.svg?branch=master
     :target: https://travis-ci.org/fsismondi/splinart-fsis
 
 .. image:: https://codecov.io/gh/fsismondi/splinart-fsis/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/fsismondi/splinart-fsis
+
+.. image:: https://readthedocs.org/projects/splinart-fsis/badge/?version=latest
+    :target: https://readthedocs.org/projects/splinart-fsis
 
 splinart is a package used for a tutorial which explains how to do the Python packaging using
 
