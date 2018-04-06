@@ -21,3 +21,5 @@ If you want to install splinart::
 or::
 
     conda install -c gouarin splinart
+
+
