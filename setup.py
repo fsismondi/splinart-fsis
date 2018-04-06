@@ -43,7 +43,8 @@ setup(
     packages = find_packages(exclude=["demos"]),
     install_requires = ["numpy",
                         "matplotlib>=2",
-                        "six"],
+                        "six",
+                        "pytest"],
     entry_points={ 'console_scripts': [
         'splinart=scripts.cli_splinart:main',
         ],
