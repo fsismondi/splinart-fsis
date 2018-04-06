@@ -27,5 +27,5 @@ script:
   - pytest --cov=splinart
 
 after_success:
-  - codecov  -e $TRAVIS_PYTHON_VERSION
+  - codecov  -e $PYVER
 
