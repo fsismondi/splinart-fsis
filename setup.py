@@ -41,10 +41,6 @@ setup(
     license = "BSD",
     classifiers = CLASSIFIERS,
     packages = find_packages(exclude=["demos"]),
-    install_requires = ["numpy",
-                        "matplotlib>=2",
-                        "six",
-                        "pytest"],
     entry_points={ 'console_scripts': [
         'splinart=scripts.cli_splinart:main',
         ],
