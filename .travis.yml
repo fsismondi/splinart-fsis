@@ -15,6 +15,7 @@ install:
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
+  - which pip
 
   - conda create -q -n splinart-env python=$PYVER
   - source activate splinart-env
